@@ -3,5 +3,5 @@ project(eclipse_auto_workspace)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp all_inlcudes.h ConfigInfo.cpp ConfigInfo.h)
 add_executable(eclipse_auto_workspace ${SOURCE_FILES})
