@@ -1,12 +1,6 @@
 #include "all_inlcudes.h"
 #include "ConfigInfo.h"
 
-
-
-
-
-
-
 int main()
 {
     string path;
